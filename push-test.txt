@@ -1,5 +1,0 @@
-Muse push test
-Date: 2026-11-08
-Repo: MIMI-boss/unikraft-ttyd
-Branch: muse-push-test
-Purpose: verify Muse GitHub App write access after repository selection.
