@@ -1,5 +1,7 @@
-#!/bin/bash
+#!/usr/bin/bash
 # Start ttyd (writable, with basic auth) on Unikraft Cloud.
+# (shebang is /usr/bin/bash: this rootfs has no /bin/bash, /bin is not a
+# symlink to /usr/bin here.)
 # TTYD_CREDENTIAL must be set as an instance env var, format "user:password".
 # Never bake the credential into the image.
 set -e

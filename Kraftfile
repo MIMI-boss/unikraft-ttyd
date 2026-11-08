@@ -5,4 +5,4 @@ targets:
 rootfs:
   source: ./Dockerfile
   format: erofs
-cmd: ["/usr/bin/tini", "--", "/usr/local/bin/start-ttyd.sh"]
+cmd: ["/usr/bin/tini", "-s", "--", "/usr/local/bin/start-ttyd.sh"]

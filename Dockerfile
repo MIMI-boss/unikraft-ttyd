@@ -26,5 +26,5 @@ RUN chmod +x /usr/local/bin/start-ttyd.sh
 WORKDIR /data
 EXPOSE 7681
 
-ENTRYPOINT ["/usr/bin/tini", "--"]
+ENTRYPOINT ["/usr/bin/tini", "-s", "--"]
 CMD ["/usr/local/bin/start-ttyd.sh"]
